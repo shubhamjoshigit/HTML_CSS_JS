@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book1_1.xsl"?>
+<world>
+<bookstore>
+  <book category="web">
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="kid">
+   <author>M.M.Rai</author>
+    <year>2004</year>
+    <price>56.32</price>
+  </book>
+  <book category="web">
+   <author>Y.L Sue</author>
+    <year>2023</year>
+    <price></price>
+  </book>
+</bookstore>
+</world>

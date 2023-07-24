@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="Bookstore.css">
+</head>
+
+<body>
+    <header>
+        <img src="./Bookstore_images/logo.png" alt="logo" class="logo-img" />
+        <div class="search-bar">
+            <input type="search" class="input-search">
+            <img src="./Bookstore_images/search.png" alt="search" />
+            <div class="check-box">
+                <input type="checkbox" id="i1" />
+                <label for="i1">Title</label>
+                <input type="checkbox" id="i2" />
+                <label for="i2">Author</label>
+                <input type="checkbox" id="i3" />
+                <label for="i3">ISBN</label>
+            </div>
+            <div class="cart">
+                <img src="./bookstore_images/minicart.png" alt="cart" class="cart-sp-l" />mini cart <img
+                    src="./bookstore_images/downarrow.png" alt="down" />
+                <p class="cart-sp-c">|</p>login<img src="./bookstore_images/downarrow.png" alt="down" />
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container-item">
+            <img src="./Bookstore_images/mainImgtop.png" alt="main-img-top" width="100%" />
+            <div class="main">
+                <h1 class="centre-text">Upto <p class="centre-strong">60%</p> Off</h1>
+                <p class="centre-p">on<br>Story Books</p>
+            </div>
+            <div class="book-container-1">
+                <div class="best-sellers">
+                    <h3>Best Sellers</h3>
+                    <div class="book-store-l">
+                        <div id="bs-1">
+                            <img src="./Bookstore_images/greenarrowleft.png" alt="left" id="img-opacity" />
+                            <img class="img-1" src="./Bookstore_images/hornokplease.png" alt="hornok" />
+                            <p id="bs-p">Horn Ok Please</p>
+                            <h4 id="bs-h">Rs 250/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add">
+                        </div>
+                        <div id="bs-2">
+                            <img id="img-height" src="./Bookstore_images/highplate.png" alt="highplate" />
+                            <p id="bs-p">Highway On <br> My Plate</p>
+                            <h4 id="bs-h">Rs 300/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add" />
+                        </div>
+                        <div id="bs-3">
+                            <img id="img-height" src="./Bookstore_images/lifeiswhat.png" alt="lifeiswhat" />
+                            <img src="./Bookstore_images/greenarrowright.png" alt="right" id="arrow" />
+                            <p id="bs-p">Life is What <br> You Make it</p>
+                            <h4 id="bs-h">Rs 420/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add" />
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arrivals">
+                    <h3>New Arrivals</h3>
+                    <div class="book-store-r">
+                        <div id="bs-1">
+                            <img src="./Bookstore_images/greenarrowleft.png" alt="left" id="img-opacity" />
+                            <img id="img-height" src="./Bookstore_images/Q.png" alt="q" height="142px" />
+                            <p id="bs-p">34 Bubblegums <br>And Candles</p>
+                            <h4 id="bs-h">Rs 200/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add" />
+                        </div>
+                        <div id="bs-2">
+                            <img id="img-height" src="./Bookstore_images/jeffreyarcher.png" alt="jeffrey" />
+                            <p id="bs-p">Only Time <br> Well Time</p>
+                            <h4 id="bs-h">Rs 350/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add/">
+                        </div>
+                        <div id="bs-3">
+                            <img src="./Bookstore_images/mafia.png" alt="mafia">
+                            <img src="./Bookstore_images/greenarrowright.png" alt="right" id="arrow" />
+                            <p id="bs-p">Mafia Queens <br>Of Mumbai</p>
+                            <h4 id="bs-h">Rs 420/-</h4>
+                            <img src="./Bookstore_images/addtocart.png" alt="add" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="book-container-2">
+                <div class="box-1">
+                    <h3>Pic Of the Day</h3>
+                    <div class="bc-main">
+                        <div>
+                            <img src="./Bookstore_images/meluha.png" alt="meluha" />
+                        </div>
+                        <div class="save-box">
+                            <div class="save-text">Save <br>Rs. 105</div>
+                        </div>
+                        <div class="bc-1">
+                            <p>The Immortals <br>Of <br>Meluha</p>
+                            <h4>Rs 194/-</h4>
+                            <del>Rs 299/-</del>
+                            <img src="./Bookstore_images/addtocart.png" alt="add" />
+                        </div>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <h3>Request a Book</h3>
+                    <label>Title:</label><input id="ip" type="text" /><br>
+                    <label>Author:</label><input id="ip" type="text" /><br>
+                    <label>ISBN:</label><input id="ip" type="text" /><br>
+                    <label>Email:</label><input id="ip" type="text" /><br>
+                    <br>
+                    <div class="d1">
+                        <img src="./Bookstore_images/submit.png" alt="submit" />
+                    </div>
+                </div>
+                <div class="box-3">
+                    <div class="div-1">
+                        <h1 class="box3-h2">Used Books <br> for Sale </h1>
+                        <div id="font-div">
+                            <h1 class="box3-h1">50%<p class="box3-p">flat <br>discount</p>
+                            </h1>
+                        </div>
+                        <div class="box3-end">
+                            <p>see more</p>
+                            <img src="./Bookstore_images/yellow.png" alt="see more" />
+                        </div>
+                    </div>
+                    <div class="div-2">
+                        <img src="./Bookstore_images/booksforsale.png" alt="bookforsale" />
+                    </div>
+                </div>
+            </div>
+            <img src="./Bookstore_images/mainImgbottom.png" alt="main-img-bottom" width="100%" />
+        </div>
+        <div class="side-bar">
+            <div id="sb-div">
+                <div id="sb-txt">Fiction</div>
+            </div>
+            <div id="sb-div">
+                <div id="sb-txt">Travel</div>
+            </div>
+            <div id="sb-div">
+                <div id="sb-txt">Kids</div>
+            </div>
+            <div id="sb-div">
+                <div id="sb-txt">Cooking</div>
+            </div>
+            <div id="sb-div">
+                <div id="sb-txt">Health</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        Home<div id="foot-end">|</div>About us<div id="foot-end">|</div>Contact us<div id="foot-end">|</div>Help<div
+            id="foot-end">|</div>Terms Of use
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+.body-con{
+    background-image: url("./UI Images/newsletter-background-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 800px;
+    
+}
+
+.cookie-container{
+    position:absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    background:darkslategray;
+    color: white;
+    transition: 400ms;
+    display: flex;
+    height: 4%;
+    align-items:center;
+    justify-content: center;
+}
+.cookie-container.active{
+    top: 0;
+}
+.cookie-container p{
+    margin-top: 12px;
+}
+.cookie-container a{
+    color: white;
+}
+.cookie-btn{
+    background: darkslategray;
+    border: 0;
+    height: 1.8rem;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.carousel-control-prev,.carousel-control-next{
+    filter: invert(100%);
+}
+.card-body-top{
+    text-align: center;
+}
+.card-img-top{
+    background: whitesmoke;
+}
+
+.card-text p{
+    font-size: small;
+    margin: 0;
+}
+.icon{
+    padding-top: 20px;
+    background: white;
+    text-align: center;
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.txt-container{
+    margin-top: 180px;
+}
+.txt-container h2{
+    color: yellow;
+}
+.txt-container h3{
+    color: white;
+}
+.txt-container h5{
+    color: white;
+}
+.btn{
+    border-radius: 25px;
+}
+.comp-container{
+    text-align: center;
+    padding: 3rem;
+    margin-top: 480px;
+}
+.btn1{
+    background: transparent;
+    border-radius: 15px;
+    border-color: yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.comp-btn{
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: transparent;
+
+}
+.help{
+    text-align: center;
+    padding: 3rem;
+}
+.footer{
+    height: 66px;
+    background-color: darkslategray;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    
+}
+.footer p{
+    color: white;
+    font-size: x-small;
+    margin-right: 20px;
+   
+}
+.footer img{
+    margin-left: 30px;
+    float: left;
+}
+.footer li{
+    float: left;
+}
+
+.img-overlay .card{
+    margin-bottom: 2rem;
+    border: 0;
+}
+.payment-container{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.jumbo-a p{
+    color: black;
+}
+
+.jumbotron{
+    height: 400px;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.fa-search {
+color: white;
+}
+.fa-shopping-cart {
+    color: white;
+}
+.col3{
+    margin-top: 20px;
+}
+.font-icon{
+    display: flex;
+    align-items: center;
+}
+.card-img-overlay{
+    margin-left: 28px;
+}
+.card-title u{
+    color: yellow;
+}
+.str{
+    color: yellow;
+}
